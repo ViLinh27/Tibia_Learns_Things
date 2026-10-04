@@ -24,4 +24,15 @@ st.write("Has a playlist for beginner electronics. Many of their tutorial series
 st.subheader("4. Cocoa's Aesthetic")
 st.write("She makes very cute tech. Has a few (not many yet) tutorials like how to design a PCB. This looks like cool project inspiration mostly (like Paul)")
 
+st.subheader("5. Phil's Lab")
+st.write("Looks like he has a decent amount of hardware tutorials. He goes into PCB design, very engineering and electronics focused")
+
+st.subheader("6. Engineer4Free")
+st.write("It looks very theory focused but the topics range from hardware to the maths behind most engineering courses like calculus and linear algebera. They also have their own website too at engineer4free.com")
+
 st.divider()
+
+st.header("Game Design")
+
+st.subheader("1. Red Indie Games")
+st.write("He has a nifty tutorial on making a text-based adventure game in godot and has provided the code for that on his github. A text based adventure looked like a good way to apply game design principles without worrying about art assets too much.")
