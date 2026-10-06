@@ -18,6 +18,12 @@
   - Series of major actions in play phase
   - Objective=> challenge=> reward =>objective
     - Objective:
+      - Accomplish to progress game
+    - Challenge:
+      - Overcome to complete objective
+    - Reward
+      - Receives / avoids in game
+      - Eventually find new objective
 
 #### Defining Game Design
 
