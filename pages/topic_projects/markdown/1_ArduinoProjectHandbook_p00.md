@@ -2,7 +2,7 @@
 
 25 Practical Projects to get you started by Mark Geddes
 
-## Project 0: Getting Started
+## <u>Project 0: Getting Started</u>
 
 Preliminary notes before we begin the project
 
@@ -116,3 +116,46 @@ Preliminary notes before we begin the project
 
 - Line 4 gives pin 2 the name led (in teh Geddes book it’s pin 13 but the set up has no breadboard).
 - Line 7 says that the pin 2 is an output pin.
+- Inside the loop (self explanatory), the HIGH in digitalWrite() turns on the light while the LOW turns it off
+  - HIGH means power sent in
+- The delay (line 13 and 15) is so the arduino waits 1 second before toggling the light on or off
+
+#### Can i try the test again with a closer set up to the Geddes book?
+
+- I fiddled a bit and so far I’m over loading the bulb. The Geddes book doesn’t explain where to put the resistor.
+- This setup seems to work:
+  - ![Set up 2](https://res.cloudinary.com/wjd2npkc/image/upload/v1791562294/D_setup2.png)
+- Let’s see if I can get the bulb closer to the arduino
+  - So far no, LI’ll leave it as is concerning how close to the book i am
+
+### Project Component List
+
+1. There’s a long list of things and there is a suggestion for arduino software compatible boards.
+2. Each project will have a list of needed supplies
+3. Each project will have a list of needed supplies
+
+### Setting up your workspace
+
+- The main thing it talks about in this section is having a dedicated space for the arduino projects because if you’re doing this physically (with actual equipment) then you don’t want to have to clean up when you’re done.
+- There’s also recommendations for storing the smaller parts in hobby boxes because those things tend of have a bunch of compartments
+- I’m starting off in simulators online like tinkercad so I won’r worry about that ‘til later
+
+### Equipment and Tool Guide
+
+- This section talks about extra equipment that’s nice to have for tinkering with electronics but not ncessary
+- Some include things like a nonconductive mat or a glue gun for example.
+
+### Quick Soldering Guide
+
+- This gives a quick guide on soldering basics because some comnponents don’t always come with header pins
+  - for example
+  - (the pin and hole things used to make the connections)
+  - Project 23 for example
+- safety first
+  - Tips to consider when soldering
+    1. Well ventilated room
+    2. Use a stand, never on a table
+    3. No flammable materials
+    4. Eye protection
+    5. Etc
+  - Common sense stuff becuase you’re dealing with hot metal
