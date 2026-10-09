@@ -46,6 +46,11 @@ st.subheader("1. Text based adventures using my Madness In a Bottle Story")
 st.write("A text-based games will allow me to think about mechanics like game loops without worrying" \
 "about making art assets too much, and I can still have fun with it because I can use my own stories to add " \
 "interactivity to them. ")
+st.subheader("2. Visual novel based adventure game")
+st.write("This kind of game has a bigger reliance on art but still has that same emphasis on story that will" \
+" keep the game play relatively simple, but help as a second step to improving my game design as I learn more. Plus I " \
+"like visual novel games anyway. ")
+
 
 st.divider()
 
