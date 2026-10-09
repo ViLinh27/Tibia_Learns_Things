@@ -104,4 +104,15 @@ Preliminary notes before we begin the project
 - I used the arrangement with the breadboard from the resources file at first. This puts the led in the breadboard, and the resistor in the breadboard. Some wires connect from the breadboard to the arduino.
   - With the code from the book, there seems to be an issue.
   - Code:
-    1. test
+    - ![code set up 01](https://res.cloudinary.com/wjd2npkc/image/upload/f_auto,q_auto/A_code1)
+- I restarted from the resource file. Even with the extra breadboard compared to the Geddes book, the code provided is inherently the same. THe main difference is I’m working on pin 2 instead of pin 13
+  - The setup looks like this:
+  - ![set up 01](https://res.cloudinary.com/wjd2npkc/image/upload/v1791562283/B_setup1.png)
+  - The code looks like this:
+  - ![code set up 02](https://res.cloudinary.com/wjd2npkc/image/upload/v1791562293/C_code2.png)
+  - success! :-D
+
+#### Understanding the Sketch
+
+- Line 4 gives pin 2 the name led (in teh Geddes book it’s pin 13 but the set up has no breadboard).
+- Line 7 says that the pin 2 is an output pin.
