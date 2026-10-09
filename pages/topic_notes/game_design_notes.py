@@ -14,3 +14,6 @@ if st.button("1: Game Designer's Handbook Series- Book 01"):
     display_page = handbook01
 
 st.markdown(display_page, unsafe_allow_html=True)
+
+if st.button("Close Notes"):
+    display_page = ""

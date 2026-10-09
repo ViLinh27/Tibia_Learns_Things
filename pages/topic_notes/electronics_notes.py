@@ -26,3 +26,6 @@ if st.button("2: Electronics Self Teaching Guide", key="electronics-self-teachin
 #what makes the markdown show up:
 #st.markdown(useful_links, unsafe_allow_html=True)
 st.markdown(display_page, unsafe_allow_html=True)
+
+if st.button("Close Notes"):
+    display_page = ""

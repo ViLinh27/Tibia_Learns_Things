@@ -26,5 +26,5 @@ if st.button("3: Arduino Project Handbook Volume 1- Project 2"):
 
 st.markdown(display_page, unsafe_allow_html = True)
 
-if st.button("Close Notes"):
+if st.button("Close Project"):
     display_page = ""
