@@ -38,7 +38,131 @@
     - Vanish
       - advance in game to stealth mode
 - GAME LOOP
+  - Full collection of loops in entire game
+- Focus on core gameplay loop before adding other feature loops to game
+- All gameplay loops drive into others
+- Games like minecraft have player driven goals that lead to endless exploration
+  - Keep system boundaries broad to make feeling of exploration make sense
+  - Exploration (endless) => player driven goal to stay challenged
+- Depth in loops means lots of interactions
+  - Your loops loop with eachother too
+- Note the explore loop in minecraft
+  - Good for rpgs
+  - Target=>nav=>survey
+    - Target
+      - Where to explore
+      - What you need
+    - Nav
+      - Player challenge
+      - Getting to target
+    - Survey
+      - Reward is knowledge or material/ adventure
+      - Leads back to finding new targets
+- Rearranging loop orders could mean new ideas that reuse existing systems (loops)
+- Think about what’s opposing the player from achieving goal in game (what keeps them in loop).
+- Games that are rigged are still games by definition
+  - 3-card monte (find the queen)
+    - Rigged games are still game as long as the game loop still TECHNICALLY get to finish phase
+  - Rigged games are still games as long as game is PLAYABLE
+    - Basketball game with small hoop is not playable
+- Testing with real players reveals a lot about existing and new game loops players will try to break your loops if your game is impossible
+- Meta game
+  - Strategy layer outside main game loop
+  - Based on outside knoledge / previous rounds
+  - Don't worry about this until main game fully polished
 
 #### Defining Game Design
+
+- **<u>Game</u>**: Set of rules with challenges to player that messes with player following rules to FINISH phase.
+  - Tennis wall example:
+    - The rules never said anything about distance
+    - So think about how cheats fit into game and how OBVIOUS they are (did designer INTEND cheats)
+- **<u>Rules:</u>**
+  - Set up phase
+  - IRL games: we don’t think about PHYSICS rules when designing games
+  - So when desgining VIRTUAL GAMES think about how world works before getting into nitty gritty game rules
+    - Think about the questions on p41-42 when creating game world
+    - Then get into ACTIONS / MECHANICS
+- **<u>Mechanics:</u>**
+  - Play phase
+  - More challenges in game supports => more mechanics need to be created => give player opportunities to overcome challenges
+    - Game can become overscoped if you think about this TOO MUCH thoughl.
+  - Mechanics can also be controlled by game isntead of player
+  - When designing INTELLIGENT OPPOSITION:
+    - (AI, challenger NPC, etc...)
+    - It’s important for intelligent opopsition to receive THEIR OWN GAME LOOP
+    - => AI (or other apps) gets more depth and purpose than 1-off challenges (if they have their own loops)
+- **<u>Gameplay Breadth and Depth</u>**
+  - Breadth
+    - Individual mechanics that have UNIQUE INTERACTIONS with world and uniqe reactions from world
+    - Adds richness to world and new gameplay loops
+      - Little depth to ORIGINAL LOOPS
+        = Toy box: player wants to try out EVERYTHING available
+    - Do you have SCOPE to build this???
+  - Depth
+    - Mechanics that have DEEPER INTERACTIONS with MULTIPLE systems
+    - Max output with min input
+    - Increases importance of mechanics as it gains interactions with other systems
+    - ex
+      - Legend of zelda breath of the wild
+        - Players always had wood weapons because metal ones attrracted lightning
+        - Leads to more unique experiences
+        - => push players to try more mechanics in wide range of scenarios
+- **<u>Systems</u>**
+  - Series of mechanics and rules and how games use them
+  - Determines how everything works together and interacts to create gameplay
+  - Game desdign is about MAINTAINING SYSTEMS and ensuring success
+  - In game design there are 2 categories of systems:
+    - FRONTEND
+      - Player needs to get ehser
+      - Used by player
+    - BACKEND
+      - Behind the scenes
+      - Generally BUILD the world
+        -Player doesn’t need to get them
+  - Why would MORE options be easier to understand for player? : FANTASY
+- **<u>Fantasy</u>**
+  - Still part of game design
+  - Builds atmopshere and hooks players
+  - Sells your systems and interactions
+  - Make sure your conceptual model isn’t hard to remember
+    - If it is hard, make sure it doesn’ break the fantasy, because it can still be easy to learn this way
+  - Usually for marketing and get consumer base, but it can hhelp players build and memorize conceptual model of game system
+- **<u>Our definition of game design </u>**
+  - Most designers focus on INDIVIDUAL piece of definition of game to game design.
+  - Some focus on naililng fatnasy then move to mechanics
+  - Others focus on world’s rules and systems , then see how player goes into tha tworld
+- **<u>Player Goal</u>**
+  - Player’s objective i gameplay loop
+  - Finish goal of entire game
+    -Player is overcoming challenge set up
+    - Rules and systems create challenge
+  - No point in rules/systems to exist if player’s goal doesn’t DRIVE THEM THROUGH rules and systems
+  - CAN BE <u>DESIGN DRIVEN</u> OR <u>PLAYER DRIVEN</u>
+    - Design driven
+      - Dictated by game
+      - complication that could come up
+        - Goals need to be approppriately challenging for players
+        - Games have difficulty setttings players can mess with to help with this issue
+    - Player Driven
+      - Set up by player
+      - Game must have systems that allow goals to be set
+      - Clear conceptual model needed
+      - Harder to design
+        - Can give more replayability
+- **<u>Fun</u>**
+  - Exciting play can overcome low challenge (& vice versa)
+    - Excitement is a scale that includes
+      - Novelty
+      - Context
+      - Utility of fantasy/mechanic
+  - What's the definition of challenging when it comes to goals or systems
+    - Challenging is more logic based than emotionally based here
+  - Challenging goals without excieting mechanics COULD MEAN that deeper strategies drive the fun of game
+    - Especially for PVP
+  - In physics based game, challenge is gaining COMPETENCY
+  - Is it better to design for ACCESSIBILTY or MASTERY
+    - BOTH
+    - Accesibilyt and mastery ARE NOT at opposite ends of a spectrum
 
 #### Enter the Game Designer
