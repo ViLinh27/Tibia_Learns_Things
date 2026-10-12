@@ -17,7 +17,8 @@ pages = {
     ],
     "Resources":[
         st.Page("pages/resources_books.py",title="Books by Topic"),
-        st.Page("pages/resources_ytchannels.py",title="Youtube Channels by Topic")
+        st.Page("pages/resources_ytchannels.py",title="Youtube Channels by Topic"),
+        st.Page("pages/resources_misc.py", title="Miscellaneous Resources by Topic")
     ],
     "Project Ideas / Goals": [
         st.Page("pages/project_ideas_electronics.py", title="Electronics Ideas")
