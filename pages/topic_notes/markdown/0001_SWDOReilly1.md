@@ -73,12 +73,52 @@
 
 #### Chapter 4: Document Management System
 
+- intros concepts :
+  - inheritance in sw design
+  - Liskov substitution principle
+  - tradeoffs bewtgeen compoisiton and inheritance
+  - write more reliable sw with automated test code
+
 #### Chapter 5: Business Rules Engine
+
+- making way to define business logic that is flexible and easy to maintain
+- intros topics
+  -test driven development
+  - developing Fluent API
+  - Interface Segregation Principle
 
 #### Chapter 6: Twootr
 
+- Builds out core of simple TWOOTR system
+- learn to think outside-in
+  - go from requirements through core of app
+- learn how to use test doubles
+  - isolate and test interactions from different components in codebase
+
 #### Chapter 7: Extending Twootr
+
+- Extends ch 6 implementation
+- explains Dependency Inversion Principle
+- Intros bigger pic architectural choices
+  - event-driven/ hexagonal architectures
+- extrend knowldege of automated testing by covering test doubles
+  - stubs
+  - mocks
+- funcitonal programming techniques
 
 #### Chapter 8: Conclusion
 
+- revisit major themes/ concepts of book
+- offer more resources to look into
+
 ### Iterating on You
+
+- go for iterative approach in workflow
+- start with high prioritiy, learn from that and see what feature is next to work on based on what you learn
+- end of each chapter gives suggestions on how to improve on learning from chapter in future
+
+---
+
+The rest of the book is project based so those will be listed in the Projects Section Under Software Development
+
+---
