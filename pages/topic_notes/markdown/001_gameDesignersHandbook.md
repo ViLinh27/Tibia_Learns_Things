@@ -164,5 +164,11 @@
   - Is it better to design for ACCESSIBILTY or MASTERY
     - BOTH
     - Accesibilyt and mastery ARE NOT at opposite ends of a spectrum
+  - Fun produced is never INFINITE
+  - Best interest as game designer to strive for BOTH excitement and challenge
+- Toughter job of game designer: fine-tuning pace of learning and challenging
 
 #### Enter the Game Designer
+
+- Game designers drive the gampelay experience by OWNING GAMEPLAY VISION and collabing with team and team on design
+  - So the only piece owned here by GD is vision
