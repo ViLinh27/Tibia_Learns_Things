@@ -10,7 +10,7 @@ handbook01 = read_markdown_file(md_path_01)
 
 display_page = ""
 
-if st.button("1: Game Designer's Handbook Series- Book 01"):
+if st.button("1: Game Designer's Handbook Series- Book 01 Part 1: Definitions"):
     display_page = handbook01
 
 st.markdown(display_page, unsafe_allow_html=True)

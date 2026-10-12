@@ -13,6 +13,7 @@ pages = {
     ],
     "Projects":[
         st.Page("pages/topic_projects/electronics_projects.py", title="Electronics Projects"),
+        st.Page("pages/topic_projects/game_design_projects.py", title="Game Design Projects")
     ],
     "Resources":[
         st.Page("pages/resources_books.py",title="Books by Topic"),
