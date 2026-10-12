@@ -10,6 +10,7 @@ pages = {
     "Notes":[
         st.Page("pages/topic_notes/electronics_notes.py", title="Electronics Notes"),
         st.Page("pages/topic_notes/game_design_notes.py", title="Game Design Notes"),
+        st.Page("pages/topic_notes/swdesign_notes.py", title="Software Dev Notes")
     ],
     "Projects":[
         st.Page("pages/topic_projects/electronics_projects.py", title="Electronics Projects"),
