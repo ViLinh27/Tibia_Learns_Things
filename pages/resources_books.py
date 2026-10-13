@@ -41,6 +41,10 @@ st.subheader("1. Real-World Software Development- A Project-Driven Guide to Fund
 st.write("by Raoul-Gabriel Urba, and Richard Warburton")
 st.write("An O'Reilly publication, so this is a well written technical book from a reputable publisher. " \
 "One of the projects is a twitter clone which is neat. The book dives into the differences between object-oriented vs. functional programming.")
-
+st.subheader("2. The C# Player's Guide- 5th Edition")
+st.write("by RB Whitaker")
+st.write("I learned C# years ago, but this book was a fun review that's project based. It's also framed in a way" \
+"that's like going through an RPG which I found fun. The writing is also pretty easy to read and easy to understand which " \
+"I appreciated.")
 st.divider()
 
