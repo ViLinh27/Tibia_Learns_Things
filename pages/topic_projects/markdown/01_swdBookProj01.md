@@ -49,6 +49,8 @@ Not everyone separates their values by commas. They'll use different delimiters.
 
 ### Simple One Class Transaction Sum Calculator
 
+#### Solve for the first query: What is the total profit and loss from a list of bank statements?
+
 Figure 2-1 on p7
 
 ```
@@ -72,7 +74,7 @@ public class BankTransactionAnalyzerSimple{
 }
 ```
 
-#### What's going on code above
+##### What's going on code above
 
 1. Pass in csv file as a command line argument to app
 2. Path class is path in file system basically
@@ -86,14 +88,14 @@ public class BankTransactionAnalyzerSimple{
 5. Add the double to current total
 6. Now you have total amount after all the looping through values
 
-#### Consider
+##### Consider
 
 - The code works fine but misses corner cases
   - What if file is empty?
   - What if parsing amount failes because data was corrupted?
   - What if statement line has missing data?
 
-#### Error when running the first project
+##### Error when running the first project
 
 I keep getting this error when running the compiled java class:
 
@@ -133,4 +135,56 @@ Turns out that's not correct. The problem line was this:
 The way the code looks now the argument would looks like this since concatenation is happening (`final Path path = Paths.get(RESOURCES + args[0]);`):
 `src/main/resources/sample.csvMyArgument`
 
-The easiest way to get rid of the error is get rid of the + args[0] since unlike the book I'm calling the file directly
+The easiest way to get rid of the error is get rid of the + args[0] since unlike the book I'm calling the file directly. This is what the code looks like now:
+
+```
+package src.main;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+
+public class BankTransactionAnalyzerSimple{
+    private static final String RESOURCES = "src/main/resources/sample1.csv";
+
+    public static void main(final String... args) throws IOException {
+        final Path path = Paths.get(RESOURCES);
+        final List<String> lines = Files.readAllLines(path);
+
+        double total = 0d;
+
+        for(final String line: lines){
+            final String[] columns = line.split(",");
+            final double amount = Double.parseDouble(columns[1]);
+            total += amount;
+        }
+
+        System.out.println("The total for all transactions is "+total);
+    }
+}
+```
+
+#### Solve for the Second query : How many bank transactions are there in a particular month?
+
+Since we're staying simple for now. Let's just copy and paste the code from before and replace the logic so it selects given month.
+
+Figure 2-1
+
+```
+        final Path path = Paths.get(RESOURCES);
+        final List<String> lines = Files.readAllLines(path);
+
+        double total = 0d;
+        final DateTimeFormatter DATE_PATTERN = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        for(final String line: lines){
+            final String[] columns = line.split(",");
+            final LocalDate date = LocalDate.parse(columns[0], DATE_PATTERN);
+            if(date.getMonth() == Month.JANUARY){
+                final double amount = Double.parseDouble(columns[1]);
+                total += amount;
+            }
+        }
+
+        System.out.println("The total for all transactions is "+total);
+```
