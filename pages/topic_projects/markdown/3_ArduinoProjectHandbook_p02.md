@@ -6,7 +6,7 @@
 
 ## <u>Project 2: Light Dimmer</u>
 
-### **GOAL** : Crate dimmer switch by adding potentiometer to control brightness of an LED
+### **GOAL** : Create dimmer switch by adding potentiometer to control brightness of an LED
 
 ### Supplies
 
