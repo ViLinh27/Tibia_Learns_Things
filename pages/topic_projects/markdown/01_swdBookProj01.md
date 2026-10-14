@@ -28,7 +28,7 @@
   - What are his top 10 expenses?
   - What category does he spend most of his money on?
 
-## KISS Principle
+### KISS Principle
 
 - Start with 1st query
   - Need to process CSV file and calculate sum of all amounts
@@ -39,11 +39,11 @@
   - what if file doesn't exist
   - what if parsing a loaded file didn't work
 
-## --- Consider the Following ---
+### --- Consider the Following ---
 
 Not everyone separates their values by commas. They'll use different delimiters.
 
-## --- Consider the Following ---
+### --- Consider the Following ---
 
 ## Book Code
 
@@ -228,4 +228,37 @@ public class BTASimple2_January{
 
 It works just as the first query program does because we just copied and pasted and changed a bit of the logic.
 
-## final Variables
+### final Variables
+
+- `final` keyword basically means variable can't be reassigned.
+  - don't need to use it all the time because it has pros and cons vs not using it
+- helps mark what changes in life cycle of program vs what doesn't change
+- Little use of final these days since `var` got introduced in java 10
+- Also little use when final added to method paramter on abstract methods (intefaces)
+  - no body means no real implication /meaning to `final`
+
+#### Consider:
+
+- You could have `final` field that refers to object with <u>mutable</u> state, so keyword doesn't guarantee immutability of objectg
+
+## Code Maintainability and Anti-Patterns
+
+- Think about copy and paste approach in Figure 2-2. Not the most maintainable
+- Things to thinka bout maintainability (wish list of peroperties about code you write):
+  - It should be simple to lcoate code responsible for some specific feature
+  - It should be simple to udnerstand what code does
+  - It should be simple to <u>add</u> or <u>remove</u> new feature
+  - It should provide good <u>**encapsulation**</u>
+    - Implementation details should be hidden from user of your code so it's easier to udnderstand and make changes
+- maintainabilty is important if new eyes are coming to your code
+- copy and pasting same code in different places results in <u>**ANTI-PATTERNS**</u>
+  - hard to understand coded because you have one giant <u>**God Class**</u>
+  - Code that's brittle and easily broken by chagnes because of <u>**code duplication**</u>
+
+### God Class
+
+- An Anti- pattern where one class does EVERYTHING
+- Not great becuase one class doing everything means it's hard to tell what the hell it does
+  - CAn also be hard becuase changing something specific is made harder to find becuase where does that feature exist in teh God class
+
+### Code Duplication
