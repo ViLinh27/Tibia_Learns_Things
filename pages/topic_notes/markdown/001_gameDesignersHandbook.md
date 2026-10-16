@@ -172,3 +172,10 @@
 
 - Game designers drive the gampelay experience by OWNING GAMEPLAY VISION and collabing with team and team on design
   - So the only piece owned here by GD is vision
+- **Owning Vision**
+  - Vision : an understanding of how all the pieces will come together to create experience
+  - For purposes of this book:
+    - focus on game vision set by creative director
+    - gampelay vision owned by game design team
+- **Game Vision**
+  -

@@ -170,3 +170,7 @@
 - Projects
 
 - Engineering forums
+
+## [Arduino documentation](https://docs.arduino.cc/language-reference/en/functions/math/map/)
+
+- explains syntax
