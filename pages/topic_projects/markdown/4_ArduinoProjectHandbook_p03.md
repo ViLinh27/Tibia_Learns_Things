@@ -112,4 +112,91 @@
   - in my current set up (#3), I have each led leg use the same set up. It could be why it's not turning on because the negative an dpositive are going in together in one column, so I'm mad at myself for that.
 -
 
+### Arduino Docs Example of LED Bar Graph
+
+I keep messing up the simulation so I figured looking at external sources to see more theory that would help me figure out what I'm doing wrong.
+
+- Link: [arduino.cc example LED Bar graph](https://docs.arduino.cc/built-in-examples/display/BarGraph/)
+- last revision 10/02/2024 (American format)
+
+---
+
+- This is a tutorial that borrows from For Loop and ARrays tutorial and Analog Input tutorial (linked on the page)
+- Hardware needed
+  - Arduino Board
+  - LED bar graph display or 10 LEDs
+  - Potentiometer
+  - 10 220 ohm resistors
+  - Hook up wires
+  - breadboard
+  - ![Arduino docs circuit diagram for bar graph]()
+  - ![Arduino docs schematic for bar graph]()
+- Code used
+  - (works like this first:
+    - Reads Input
+    - map input val to output range (LEDS)
+    - for loop to interate over each output
+    - output num < mapped input range means lights turn on
+    - if not then they go off)
+
+  ```
+  /*
+
+  LED bar graph
+
+  Turns on a series of LEDs based on the value of an analog sensor.
+  This is a simple way to make a bar graph display. Though this graph uses 10
+  LEDs, you can use any number by changing the LED count and the pins in the
+  array.
+
+  This method can be used to control any series of digital outputs that depends
+  on an analog input.
+
+  The circuit:
+  - LEDs from pins 2 through 11 to ground
+
+  created 4 Sep 2010
+  by Tom Igoe
+
+  This example code is in the public domain.
+
+  https://docs.arduino.cc/built-in-examples/display/BarGraph/
+
+  */
+
+  // these constants won't change:
+  const int analogPin = A0; // the pin that the potentiometer is attached to
+  const int ledCount = 10; // the number of LEDs in the bar graph
+
+  int ledPins[] = {
+  2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+  }; // an array of pin numbers to which LEDs are attached
+
+  ```
+
 #### Simulation 4
+
+- I treid switching out with a pushbutton instead to match the picture form the site better. THis meant I had to adjust the code from the book to fit with a pushbutton. I don't think I connected the circuit correctly because the simulation didn't work.
+
+- ![Arduino bar graph with pushbutton]()
+- ![Code for push button ]()
+
+### TutorialsPoint
+
+- Here is a nother tutorial to see where I'm going wrong with this project (from the first time).
+- [Link to turoialspoint Arduino LED Bar graph](https://www.tutorialspoint.com/arduino/arduino_led_bar_graph.htm)
+
+- Goal: read analog input at analog pin 0, convert values to analogRead() into voltage, print it out to serial monitor of IDE
+
+- Components needed
+  - breadboard
+  - arduino uno r3
+  - 5k ohm variable resistor (potentiometer)
+  - 2 jumper cables
+  - 8 LEDs
+
+#### Simulation 5
+
+- Success. Pretty sure I connected the LEDs wrong. Gonna have to compare all the setups.
+- ![set up 5]()
+- ![code 5]()
