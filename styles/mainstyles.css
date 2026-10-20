@@ -1,0 +1,25 @@
+/*----- APP APPEARANCE STYLING-----*/
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #e0befe;
+}
+
+.stApp {
+    background-color: #382f4a;
+}
+div[data-testid="stSidebarContent"] {
+    background-color: #281f39;
+}
+
+.stAppToolbar{
+    background-color: #483d5e;
+}
+
+.stButton{
+    background-color:#443264;
+}
