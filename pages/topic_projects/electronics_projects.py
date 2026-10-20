@@ -18,6 +18,9 @@ ardProj2 = read_markdown_file(md_path_03)
 md_path_04 = "pages/topic_projects/markdown/4_ArduinoProjectHandbook_p03.md"
 ardProj3 = read_markdown_file(md_path_04)
 
+md_path_05 = "pages/topic_projects/markdown/5_ArduinoProjectHandbook_p04.md"
+ardProj4 = read_markdown_file(md_path_05)
+
 display_page = ""
 
 if st.button("1: Arduino Project Handbook Volume 1- Project 0"):
@@ -28,6 +31,8 @@ if st.button("3: Arduino Project Handbook Volume 1- Project 2"):
     display_page = ardProj2
 if st.button("4: Arduino Project Handbook Volume 1- Project 3"):
     display_page = ardProj3
+if st.button("5: Arduino Project Handbook Volume 5- Project 4"):
+    display_page = ardProj4
     
 st.markdown(display_page, unsafe_allow_html = True)
 

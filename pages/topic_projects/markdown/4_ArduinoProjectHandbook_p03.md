@@ -44,12 +44,14 @@
 | right pin     | +5V     |
 
 - My first set up:
-- ![hardware set up 01]()
+- ![hardware set up 01](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513360/proj3_setup01.jpg)
+- I forgot to add the potentiometer so here's the same setup with the potentiometer:
+- ![hardware with potentiometer 01](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513360/proj3_setup01_potentiometer.jpg)
 
 ### The Sketch
 
 - My first code set up:
-- ![code setup 01]()
+- ![code setup 01](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513360/proj3_code01.jpg)
 
 #### What does the book code do
 
@@ -90,9 +92,9 @@
 #### Simulation 2
 
 - My second set up:
-- ![hardware set up 02]()
+- ![hardware set up 02](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513381/proj03_setup02.jpg)
 - My second code set up:
-- ![code setup 02]()
+- ![code setup 02](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513381/proj03_code02.jpg)
 - I realize I never connected the +5v rail connected to the LEDs back to the arduino in teh first simulation. No wonder it wasn't working before (simulation 1) but it's still not working here
 - I also didn't use the resitors to bridge the gap in holes in the breadboard like what the book suggested
 - Potential reasons I could not be doing this corrctly
@@ -104,9 +106,9 @@
 #### Simulation 3
 
 - My third set up:
-- ![hardware set up 03]()
+- ![hardware set up 03](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513395/proj03_setup03.jpg)
 - My third code set up:
-- ![code setup 03]()
+- ![code setup 03](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513395/proj03_code03.jpg)
 - This simulation was a failure
 - I didn't notice that in the book that the columns in the breadboard are sepearte between the anode and cathod of the leds (as in the led legs are using different columns)
   - in my current set up (#3), I have each led leg use the same set up. It could be why it's not turning on because the negative an dpositive are going in together in one column, so I'm mad at myself for that.
@@ -129,8 +131,8 @@ I keep messing up the simulation so I figured looking at external sources to see
   - 10 220 ohm resistors
   - Hook up wires
   - breadboard
-  - ![Arduino docs circuit diagram for bar graph]()
-  - ![Arduino docs schematic for bar graph]()
+  - ![Arduino docs circuit diagram for bar graph](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513337/ArduinoDocs_CircuitDiagram.png)
+  - ![Arduino docs schematic for bar graph](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513337/ArduinoDocs_Schematic.png)
 - Code used
   - (works like this first:
     - Reads Input
@@ -178,8 +180,8 @@ I keep messing up the simulation so I figured looking at external sources to see
 
 - I treid switching out with a pushbutton instead to match the picture form the site better. THis meant I had to adjust the code from the book to fit with a pushbutton. I don't think I connected the circuit correctly because the simulation didn't work.
 
-- ![Arduino bar graph with pushbutton]()
-- ![Code for push button ]()
+- ![Arduino bar graph with pushbutton](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513416/proj03_setup04.jpg)
+- ![Code for push button ](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513415/proj03_code_04.jpg)
 
 ### TutorialsPoint
 
@@ -194,9 +196,11 @@ I keep messing up the simulation so I figured looking at external sources to see
   - 5k ohm variable resistor (potentiometer)
   - 2 jumper cables
   - 8 LEDs
+- ![Reference Setup](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513338/Arduino_TutorialsPointDiagram.png)
+- ![Schematic Reference](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513337/Arduino_TutorialsPoint_schematic.png)
 
 #### Simulation 5
 
 - Success. Pretty sure I connected the LEDs wrong. Gonna have to compare all the setups.
-- ![set up 5]()
-- ![code 5]()
+- ![set up 5](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513431/proj03_setup05.jpg)
+- ![code 5](https://res.cloudinary.com/wjd2npkc/image/upload/v1792513431/proj03_code05.jpg)
