@@ -4,8 +4,7 @@
 
 ### Base Knowledge of of basic electronics
 
-<details>
-<summary> <h4>Ohm's Law <h/4></summary>
+#### Ohm's Law
 
 - [School of PE](https://schoolofpe.com/blogs/news/what-is-ohms-law-html?srsltid=AU7gw4VLieIPmtO81zaoUn1djItybCdWPxpQrhVvRUmABDmwa-EwUcFa)
   - Key Takeaways
@@ -52,9 +51,58 @@
 
   - Why Ohm's Law matters in the field
 
-</details>
-
 - #### Current Flow
+  - [Wikipedia article](https://en.wikipedia.org/wiki/Electric_current)
+    - electric current:
+      - flow of charged particles (electrons or ions) through electrical conductor or space.
+      - moving particles are called **charge carriers**
+      - units: ampere, amps, symbol A
+      - aka amperage
+      - electric currents create magnetic fields, which are used in
+        - motors
+        - generators
+        - inductors
+        - transformers
+        - in ordinary conductors: they cause Joule heating
+          - light in incandescent light bulbs
+    - time verying currents emit electromagnatic waves
+      - used in telecomm to broadcast info
+    - symbol
+    - conventions
+    - alternating and direct current
+    - occurences
+  - [LibreTexts PHYSICS](<https://phys.libretexts.org/Courses/Coalinga_College/Physical_Science_for_Educators_(CID%3A_PHYS_14)/11%3A_Electricity/11.04%3A_Electric_Current_and_Resistance/11.4.02%3A_Current>)
+    - <u>11.4.2: Current</u>
+    - Electric Current and Circuits
+      - Electric Current
+        - when a thing with high potential energy (full of charged electrons for example) , the charged high potential energy electrons will naturally flow towards the thing with no excess electrons (lower potential energy).
+        - possible for electric current to be either a flow of postiive charged particles or negative charged ones
+        - virtually all electrc currents consist of movement of electrons
+      - Common Misconceptions
+        - easy to think current is only flow of positive charges but charges can go both ways.
+          - we now now that flow of + charge is flow of - in opposite direction
+        - conventional current is flow of + current would flow
+        - electron flow is still just electron flow (- if i remember correctly)
+        - electric current flows from **high** PE (potential energy) to low PE
+          - what makes up **simple** electric circuit
+        - think of electric circuit like water flowing through system
+          - pump and water tower = battery
+          - water wheel = resistor
+          - adjust the slider (simulation on website) to put these "resistors" **in series and parallel**
+            - in series, the current seems to go up faster with volrage compared to when it's in parallel
+      - Electric Circuits
+      - Examples
+      - Summary
+      - Review
+      - Explore More
+      - Addtional Resources
+  - [Fluke.com](https://www.fluke.com/en-gb/learn/blog/electrical/what-is-current)
+    - What is current?
+      - rate electrons flow past point in complete electrical circuit
+      - basically **current = flow**
+    - What unit of measurement is used for current?
+    - symbols associated with electrical current
+    - current defined; amperes
 
 ### Resources to check out for basics
 
@@ -65,35 +113,4 @@
 
 ### Review chapters in book
 
-Chapter 1 and 5 have tests to see if you know needed basics
-
-<details>
-  <summary><h2> 1: DC Review and Pre-Test</h2></summary>
-
-### Current Flow
-
-### Ohm's Law
-
-### Resistors in Series
-
-### Resistors in Parallel
-
-### Power
-
-### Small Currents
-
-### The Graph of Resistance
-
-### The Voltage Divider
-
-### The Current Divider
-
-### Switches
-
-### Capacitors in a DC Circuit
-
-### Summary
-
-### DC Pre-Test
-
-</details>
+- Chapter 1 and 5 have tests to see if you know needed basics
