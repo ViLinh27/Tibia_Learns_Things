@@ -23,7 +23,7 @@
 ### Current Flow
 
 - Electrical and electronic devices work because of an electric current
-- Q1: What is an electric current?:
+- Q1: <u>What is an electric current?:</u>
   - My answer:
     - flow of electrons in a circuit basically
   - Book Answer:
@@ -36,9 +36,10 @@
       </details>
   - What I learned here:
     - I need to be more detailed in my answers
-- Q2: There are several methods that can be used to generate an electric current. Write at least 3 ways an electron flow ( or current ) can be generated.
+    - It helps to know the specifics like the charges and outlier possibilities like semiconductors
+- Q2: <u>There are several methods that can be used to generate an electric current. Write at least 3 ways an electron flow ( or current ) can be generated.</u>
   - My answer:
-    -
+    - I
     -
     -
   - Book Answer:
