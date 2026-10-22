@@ -23,6 +23,9 @@
 ### Current Flow
 
 - Electrical and electronic devices work because of an electric current
+
+---
+
 - Q1: <u>What is an electric current?:</u>
   - My answer:
     - flow of electrons in a circuit basically
@@ -37,6 +40,9 @@
   - What I learned here:
     - I need to be more detailed in my answers
     - It helps to know the specifics like the charges and outlier possibilities like semiconductors
+
+---
+
 - Q2: <u>There are several methods that can be used to generate an electric current. Write at least 3 ways an electron flow ( or current ) can be generated.</u>
   - My answer:
     - A standard electric circuit like with a basic PCB and a bunch of wires
@@ -98,25 +104,62 @@
       - This was mentioned in the Wikipedia article.
     - I was thinking of different real world examples of electric currents but the definition I had in my head was too narrow.
 
+---
+
 - Q3:
   - Context:
     - Most simple examples in this book contain a battery as voltage source
-      - batteries provide potential difference to circuit tha tenables current to flow (here)
+      - batteries provide potential difference to circuit that enables current to flow (here)
       - electrons are electric charge, that flow from terminal with **excess number** of electrons to terminal with **deficiency** of electrons
       - this flow happens in **any complete circuit** connected to battery terminals
       - **this difference** is what makes **potential difference** in batteries
         - electrons try to balance said difference
-    -
-  - A: <u> </u>
-    - My Answer:
-    - Book Answer:
-        <details> 
-        <summary> Click to Reveal</summary>
-        <ul>
-            <li>Test</li>
-        </ul>
-        </details>
-    - What I learned:
+    - <u>electron flow</u>
+      - electrons have - charge so flow from - to +
+    - current flow
+      - - to - flow
+      - aka conventional current flow
+    - many semiconductor devices have symbol that contains arrowhead pointing in direction of conventional current flow
+  ***
+  - 3A: <u> Draw arrows to show the current flow in Figure 1.1. The symbol for the battery shows its polarity</u>
+    - My Answer on figure 1.1:
+      - ![Figure 1.1 with my arrows]()
+  ***
+  - 3B: <u> What indicatesd that a potential difference is present?</u>
+  - My Answer:
+    - There's a battery that causes electrons to flow
+    - There's a positive and negative terminal for the electrons to flow in a direction
+    - So there's a potential difference
+  ***
+  - 3C: <u> What does the potential difference cause? </u>
+  - My answer:
+    - The - charged electrons will flow towards the positive terminal because there's an excess of electrons at the negative termminal and a deficiecy at hte positive terminal
+  ***
+  - 3D: <u> What will happen if the battery is reversed </u>
+  - My answer:
+    - The current flow will be reversed
+  ***
+  - Book Answer:
+      <details> 
+      <summary> Click to Reveal</summary>
+      <ul>
+          <li>3A: <img src="" alt="figure 1.2, answer to Q3 A"/></li>
+          <li>3B: The battery symbol indicates that a difference of potential <u>(aka voltage)</u> is being supplied to the circuit</li>
+          <li>3C: Voltage causes current to folow if there is a complete circuit present, as shown in figure 1.1</li>
+      </ul>
+      </details>
+  - What did I learn?
+    - 3A:
+      - I got the terminology mixed up from the looks of it.
+      - THe question was asking for current flow.
+        - On the libreText physics site, the text talked about common misconceptions of only talking about the flow of + charges, when electrons have a - charge.
+        - I forgot that the text also mentions that it's convention to talk about + charge when talking about current direction. THe conventional current if you will.
+    - 3B:
+      - I took the question metaphorically concerning the shown circuit schematic.
+      - Since the diagram in figure 1.1 represents a circuit I thought the question was asking " What is the thing in this circuit that makes the potential difference here."
+      - I didn't think the question was that literal, as in the battery symbol is what shows the fact there's potential difference here.
+    - 3C:
+    - 3D:
 
 ### Ohm's Law
 
