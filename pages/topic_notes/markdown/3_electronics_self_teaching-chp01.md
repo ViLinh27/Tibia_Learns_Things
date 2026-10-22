@@ -39,19 +39,78 @@
     - It helps to know the specifics like the charges and outlier possibilities like semiconductors
 - Q2: <u>There are several methods that can be used to generate an electric current. Write at least 3 ways an electron flow ( or current ) can be generated.</u>
   - My answer:
-    - I
-    -
-    -
+    - A standard electric circuit like with a basic PCB and a bunch of wires
+      - electrons are moving through wires here
+    - Incandescent light bulbs
+      - ordinary conductor
+      - causes Joule heating
+    - in a semiconductor
+      - although the charge can be positive here (electroncs are negative)
   - Book Answer:
     <details> <summary> Click to Reveal</summary>
+    (These are the most common ways to generate current)
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>
+       <u>Magnetically</u>: 
+         <ul>
+           <li> includes induction of electrons in a wire rotating in a magnetic field</li>
+           <li>example: generators turned by water, wind or steam, or fan belt in car</li>
+         </ul>
+      </li>
+      <li>
+       <u>Chemically</u>:
+         involves <u>electrochemical generation</u> of electrons by reactions between chemicals and electrodes (as in batteries)
+      </li>
+      <li>
+        <u>Photovoltaic generation of electrons</u>:
+          occurs when light strikes semiconductor crystals (solar cells).
+      </li>
+    </ul>
+    <br>
+    (Less common ways to generate electric current:)
+    <ul>
+      <li>
+        <u>Thermal Generation</u>:
+        <ul>
+          <li>uses temperature differences between thermocouple junctions</li>
+          <li>Used in generators on spacecrafts fuled by radioactive material</li>
+        </ul>
+      </li>
+       <li>
+        <u>Electrochemical reaction</u>:
+        occurs between hydrogen, oxygen, and electrodes (fuel cells)
+      </li>
+      <li>
+        <u>Piezoelectrical</u>:
+        <ul>
+            <li>involves mechanical deformation of **piezoelectric substances**</li>
+            <li>example: piezoelectric material in heels of shoes power LEDs that light up when you walk</li>
+        </ul>
+      </li>
     </ul>
     </details>
+
   - What I learned here:
-    - I
+    - I misunderstood the question for one.
+    - I was thinking too detailed and understood the question as " give me situations that can make electrons flow only".
+      - I didn't consider the effects beyond that
+    - I didn't consider the fact that (for example) electric currents make magnetic fields, this means the electric current can be created **magnetically**.
+      - This was mentioned in the Wikipedia article.
+    - I was thinking of different real world examples of electric currents but the definition I had in my head was too narrow.
+
+- Q3:
+  - Context:
+    -
+  - A: <u> </u>
+    - My Answer:
+    - Book Answer:
+        <details> 
+        <summary> Click to Reveal</summary>
+        <ul>
+            <li>Test</li>
+        </ul>
+        </details>
+    - What I learned:
 
 ### Ohm's Law
 
