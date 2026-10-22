@@ -100,6 +100,12 @@
 
 - Q3:
   - Context:
+    - Most simple examples in this book contain a battery as voltage source
+      - batteries provide potential difference to circuit tha tenables current to flow (here)
+      - electrons are electric charge, that flow from terminal with **excess number** of electrons to terminal with **deficiency** of electrons
+      - this flow happens in **any complete circuit** connected to battery terminals
+      - **this difference** is what makes **potential difference** in batteries
+        - electrons try to balance said difference
     -
   - A: <u> </u>
     - My Answer:
