@@ -145,7 +145,8 @@
       <ul>
           <li>3A: <img src="" alt="figure 1.2, answer to Q3 A"/></li>
           <li>3B: The battery symbol indicates that a difference of potential <u>(aka voltage)</u> is being supplied to the circuit</li>
-          <li>3C: Voltage causes current to folow if there is a complete circuit present, as shown in figure 1.1</li>
+          <li>3C: Voltage causes current to flow if there is a complete circuit present, as shown in figure 1.1</li>
+          <li>3D: The current flows in the opposite direction</li>
       </ul>
       </details>
   - What did I learn?
@@ -159,9 +160,48 @@
       - Since the diagram in figure 1.1 represents a circuit I thought the question was asking " What is the thing in this circuit that makes the potential difference here."
       - I didn't think the question was that literal, as in the battery symbol is what shows the fact there's potential difference here.
     - 3C:
+      - Aside from the direction being (conventionally) wrong, I'm not completely wrong in this answer.
+      - This question is just broad so I was thinking too much into the question so my answer is too specific.
+      - The potential difference just makes the current flow
     - 3D:
+      - Since a battery has a + terminal and a - terminal, it made sense that if the battery got reversed, the current flow would too
+      - Since the voltage comes from the battery here to my understanding
 
 ### Ohm's Law
+
+- Q4:
+  - Context: Ohm's Law states the fundamental relationship between voltage (V), current (I), and resistance (R)
+  - <u>What is the algebraic formula for Ohm's Law?</u>
+  - My answer
+    - V = I x R
+    - Voltage = current (intensity) x Resistance
+  - Book answer
+    <details> 
+      <summary> Click to Reveal</summary>
+      <ul>
+          <li>V = I x R</li>
+          <li>This is the most basic equation in electricity, and you should know it well. Some electronics books state OHm's law as E = IR. E and V are both symbols for voltage. This book uses V to indicate voltage. When V is used after a number in equations and circuit diagrams, it represents **volts**, the unit of measurement of voltage.  Also, in this formula, resistance is the opposition to current flow. Larger resistanc ersults in smaller current for any given voltage.</li>
+      </ul>
+    </details>
+  - What did I learn?
+  - I know this fundamental so that's good.
+  - It helps to picture the Ohm's law formula in a pyramid like so:
+    - ![Ohm's law pyramid]()
+      - figure above from this [link](https://developer.wildernesslabs.co/Hardware/Reference/Equations_and_Laws/Voltage/Ohms_Law/)
+
+---
+
+- Q5: Use Ohm's law to find the answers in this problem
+  - 5A:
+  ***
+  - 5B:
+  ***
+  - 5C:
+  ***
+  - 5D:
+  ***
+  - Book Answer
+  - What I learned
 
 ### Resistors in Series
 
