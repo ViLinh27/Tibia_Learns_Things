@@ -123,7 +123,7 @@
   ***
   - 3A: <u> Draw arrows to show the current flow in Figure 1.1. The symbol for the battery shows its polarity</u>
     - My Answer on figure 1.1:
-      - ![Figure 1.1 with my arrows]()
+      - ![Figure 1.1 with my arrows](https://res.cloudinary.com/wjd2npkc/image/upload/v1792771088/figure1-1.jpg)
   ***
   - 3B: <u> What indicatesd that a potential difference is present?</u>
   - My Answer:
@@ -143,7 +143,7 @@
       <details> 
       <summary> Click to Reveal</summary>
       <ul>
-          <li>3A: <img src="" alt="figure 1.2, answer to Q3 A"/></li>
+          <li>3A: <img src="https://res.cloudinary.com/wjd2npkc/image/upload/v1792771088/figure1-2.jpg" alt="figure 1.2, answer to Q3 A"/></li>
           <li>3B: The battery symbol indicates that a difference of potential <u>(aka voltage)</u> is being supplied to the circuit</li>
           <li>3C: Voltage causes current to flow if there is a complete circuit present, as shown in figure 1.1</li>
           <li>3D: The current flows in the opposite direction</li>
@@ -186,7 +186,7 @@
   - What did I learn?
   - I know this fundamental so that's good.
   - It helps to picture the Ohm's law formula in a pyramid like so:
-    - ![Ohm's law pyramid]()
+    - ![Ohm's law pyramid](https://res.cloudinary.com/wjd2npkc/image/upload/v1792771087/ohm-pyramid.jpg)
       - figure above from this [link](https://developer.wildernesslabs.co/Hardware/Reference/Equations_and_Laws/Voltage/Ohms_Law/)
 
 ---
