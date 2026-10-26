@@ -5,6 +5,8 @@ st.title("About")
 #who am i image and text blurb here
 st.header("Who am I?")
 
+st.image("https://res.cloudinary.com/wjd2npkc/image/upload/v1793027005/dogLOGO.png",width=250);
+
 st.write("""
     Hello! It's nice to meet you visitor. My name is Linh. I am a digital artist who likes to draw and write things. 
     I graduated with a masters in computer science but had difficulty finding work in that field due to the rise of AI dependency ( and subsequent misuse)
