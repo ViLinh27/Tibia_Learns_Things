@@ -29,7 +29,9 @@ pages = {
         st.Page("pages/resources_misc.py", title="Miscellaneous Resources by Topic")
     ],
     "Project Ideas / Goals": [
-        st.Page("pages/project_ideas_electronics.py", title="Electronics Ideas")
+        st.Page("pages/project_ideas_electronics.py", title="Electronics Ideas"),
+        st.Page("pages/project_ideas_gameDesign.py", title="Game Design Ideas"),
+        st.Page("pages/project_ideas_swDev.py", title="Software Development Ideas")
     ]
 }
 
