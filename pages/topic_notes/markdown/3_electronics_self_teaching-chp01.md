@@ -192,16 +192,62 @@
 ---
 
 - Q5: Use Ohm's law to find the answers in this problem
-  - 5A:
+  - <u>What is the voltage for each combination of resistance and current values?</u>
+  - 5A: R = 20 ohms, I = 0.5 amperes, V = ?
+    - My Answer:
+      1. V = I x R
+      2. V = 0.5 x 20
+      3. **<u>V = 10 volts</u>**
   ***
-  - 5B:
+  - 5B: R = 560 ohms, I = 0.02 amperes
+    - My Answer:
+      1. V = I x R
+      2. V = 0.02 x 560
+      3. **<u>V = 11.2 volts</u>**
   ***
-  - 5C:
+  - 5C: R = 1000 ohms, I = 0.01 amperes
+    - My Answer:
+      1. V = I x R
+      2. V = 0.01 x 1000
+      3. **<u>V = 10 volts</u>**
   ***
-  - 5D:
+  - 5D: R = 20 ohms, I = 1.5 amperes
+    - My Answer:
+      1. V = I x R
+      2. V = 1.5 x 20
+      3. **<u>V = 30 volts</u>**
   ***
   - Book Answer
+     <details> 
+      <summary> Click to Reveal</summary>
+      <ul>
+        <li>A: 10 volts</li>
+        <li>B: 11.2 volts</li>
+        <li>C: 10 volts</li>
+        <li>D: 30 volts </li>
+      </ul>
+    </details>
   - What I learned
+    - Algebra is useful in learning electronics
+      - the theory behind it anyway
+    - You can see this in the arduino projects espcially when using potentiometers.
+      - potentiometers provide resistance.
+      - The more resistance there is , the less current you have since:
+        - Current = volts / resistance
+        - you get this if you rearrange the ohm pyramid (algebraically of course)
+
+---
+
+- Q6 : You can rearrange Ohm's law to calculate current values
+  - <u>What is the current for each combination of voltage and resistance values?</u>
+  - 6A: V = 1 volt, R = 2 = ohms, I = ?
+    - My answer:
+  - 6B: V = 2 volts, R = 10 ohms, I = ?
+    - My answer:
+  - 6C:
+    - My answer:
+  - 6D:
+    - My answer:
 
 ### Resistors in Series
 
