@@ -8,6 +8,20 @@ st.divider()
 
 st.header("Electronics")
 
+st.subheader("1. Engineer4free.com")
+st.markdown("""
+ * [Check out the website here](https://www.engineer4free.com)
+ * coves topics from calculus to project management           
+""")
+
+st.subheader("2. Ohmie")
+st.markdown("""
+ * "duolingo" for electronics
+ * only on IOS :-( so i can't use it
+ * free for 7 days, but 29.99 USD after that annually
+ * [reddit thread where people review it](https://www.reddit.com/r/ElectricalEngineering/comments/1whpwhi/ive_been_seeing_way_too_many_ads_on_ohmie_what_do/)
+    * People seem to agree it's good for beginners
+""")
 st.divider()
 
 st.header("Game Design")
@@ -38,5 +52,13 @@ st.markdown("""
 st.divider()
 
 st.header("Software Development")
+
+st.subheader("1. Commonmark.org")
+st.markdown("""
+ * [Check out the website here](https://commonmark.org)
+ * teaches markdown
+ * could help with documentation
+ * gamifies markdown learning
+""")
 
 st.divider()

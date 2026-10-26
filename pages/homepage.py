@@ -21,4 +21,13 @@ st.write("Click on a button below to check out some of my projects.")
 st.page_link("pages/topic_projects/electronics_projects.py", label="Electronics Projects")
 st.page_link("pages/topic_projects/game_design_projects.py", label="Game Design Projects")
 st.page_link("pages/topic_projects/swd_projects.py", label="Software Development Projects")
+
 st.divider()
+
+st.subheader("Project Ideas / Goals")
+st.write("This extra section are lists of projects that I both hope to make and am currently working on (they will be described as works in progress or otherwise)." \
+"The lists are to help catalogue ideas and keep me accountable on stuff I'm already working on.")
+st.write("Click on a butto below to check out some of those project ideas.")
+st.page_link("pages/project_ideas_electronics.py", label="Electronics Ideas")
+st.page_link("pages/project_ideas_gameDesign.py", label="Game Design Ideas")
+st.page_link("pages/project_ideas_swDev.py", label="Software Ideas")

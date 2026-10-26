@@ -26,6 +26,11 @@ st.write("by Mark Geddes")
 st.write("The projects in this book look independent from the first book based on what the intro says. I haven't tried these yet, but the author explains " \
 "relatively well. I'll see if they can still be done in simulators.")
 
+st.subheader("4. Practical Electronics for Inventors")
+st.write("by Paul Scherz and Dr. Simon Monk")
+st.write("Has a path to learn visual map included. Lots of topics covered. " \
+"There's a kid's version titled \"Practical Electronics for Tomorrow's Inventors\" too." \
+"The writing is easy enough to understand. Looks very project based when it comes to learning path in the book which is cool.")
 st.divider()
 
 st.header("Game Design")
