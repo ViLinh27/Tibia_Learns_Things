@@ -7,6 +7,19 @@
 - You play as the children of the underworld's ruler, specifically the older brother in the sibling pair. The setting is heavily inspired by Greco-Roman myth but other mythologies do have their influence in here.
 - Your goal is to escape the underworld kingdom of Krun (your father) with your little sister and make your way to the mortal plane. Once there, your job is to find your cousin Alva. He will help you build a life among mortals.
 
+### Character goals
+
+- René
+  - get out of the underworld
+  - build new life in mortal world away from Ruha and Krun
+  - protect Péronne from Ruha
+- Péronne
+  - get outof the underworld
+- Krun
+  - find René and Péronne
+- Ruha
+  - find out why [ ] is keeping René and Péronne 's whereabouts secret from her
+
 ## The gameplay
 
 - Since this is text based, the gameplay is primarily based in choices.
@@ -17,14 +30,12 @@
 ### The book
 
 - What are some of the main game loops in a text based game like this?
-
-### The youtube series
-
-- This tutorial series explains how this developer made a simple text based game in godot and was a great reference for the build and a relatively effective workflow.
+  - Get out of the underworld
 
 ## How will I build this game
 
-- The build will be in the open source godot engine.
+- The build will be in the choice of games script.
+- I intended to build this in godot at first but choice script has the convenience of me not needing to worry about building the UI from scratch.
 
 ## My original notes from when I first conceptualized this game
 
