@@ -42,9 +42,74 @@
 
 - The `*goto` command lets you go to another story slots if they're labeled properly
   - use `*label`
+- Every nested (indented) block has to end with a `*finish` command which ends scene (the story slot) or a `*goto` which jumps to another scene
 
 ## Setting and Checking Variables (aka "stats")
 
+- variables are how stats will work
+- adds more interactivity than just the choices
+- how to declare variable
+  `*create leadership 50`
+- how to define variable
+  `*set leadership 30`
+- `*create` only allowed at top of `startup.txt`
+- can use `*set` anywhere (since this is how you change the variable)
+- Ex:
+  ```
+  *choice
+    #Leadership
+      *set leadership +10
+      *goto action
+    #Strength
+      *set strength +10
+  ```
+- Check value of variable like this (once set):
+
+  ```
+  #Run for class president
+  *if leadership > 15
+  You win election
+  *finish
+  You lose election
+  *finish
+  ```
+
+  - condtional statements work in choice script too
+    - if else statements
+
+- variables can determine what choices are usable in later parts of a story (for example)
+  - say you don't have enough mana (as a magician) at a point in your story
+  - that means you won't cast certain spells (these are choices)
+
+- variables can also been seen in a stats screen (there's a Show Stats button in the main game UI)
+  - [More on customizing stats screen](https://www.choiceofgames.com/make-your-own-games/customizing-the-choicescript-stats-screen/)
+- variables in choice script work like other languages: you can store anything basically
+- There's also an `elseif`
+
 ## What happens when we \*finish?
 
-## Examples
+- `*finish` goes to next scene in game
+  - ```*scene_list
+         startup
+         animal
+         variiables
+         ending
+         death
+    ```
+  - new scene needs a new txt file in the mygame folder
+
+- ending of the game
+  - ex:
+    ```
+    This is the last scene! GAME OVER!
+    *ending
+    ```
+- The `*ending` will give the player an automatic "Play Again" dialogue
+
+- You don't need to use the scene list
+- You can use `*goto_scene` if you're not using the scene list to jump around scenes
+  - helps for deaths so you don't have 1000 death files
+  - can also use it for going to SPECIFIC labels
+
+- Choice Script uses UTF-8 encoding
+  - if you use different encoding, Choice script could break accented letters.
